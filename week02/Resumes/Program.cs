@@ -19,4 +19,12 @@ class Program
         job1.DisplayJob();
         job2.DisplayJob();
     }
+
+    Resume resume = new Resume();
+    resume._name = "Prosper Youngchi-Pee";
+    resume._email = "prosper.youngchi-peee@example.com";
+    resume._phoneNumber = "123-456-7890";
+    resume._jobs.Add(job1);
+    resume._jobs.Add(job2);
+    resume.Display();
 }
