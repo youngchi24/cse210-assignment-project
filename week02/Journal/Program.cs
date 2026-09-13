@@ -4,12 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Creativity:
-        // I added a larger collection of prompts and made the program
-        // randomly choose a prompt each time the user writes an entry.
-        // I also organized the program into separate classes so that
-        // Entry handles individual entries, Journal handles the collection,
-        // and Program handles the user interface.
+        // Creativity and Exceeding Requirements:
+
+        // I exceeded the core requirements by creating eight different
+        // journal prompts instead of the required five. This gives the
+        // user more variety when writing journal entries.
+        // I made the program randomly choose a prompt each time the
+        // user writes a new entry.
+        // I also added an empty-journal check when displaying the journal,
+        // so the program gives the user a helpful message when there are
+        // no entries instead of displaying nothing.
+        // I organized the program into separate classes. The Entry class
+        // handles individual journal entries, the Journal class manages
+        // the collection of entries, and the Program class handles the
+        // user interface. This demonstrates abstraction and keeps the
+        // program organized.
 
         Journal journal = new Journal();
 
