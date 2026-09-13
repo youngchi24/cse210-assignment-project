@@ -96,7 +96,7 @@ class Program
             else if (choice == "5")
             {
                 running = false;
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("thank you for using Prosper Chi-Pee's Journal! Goodbye!");
             }
             else
             {
